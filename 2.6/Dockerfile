@@ -1,4 +1,4 @@
-FROM golang:alpine3.18 AS dataplaneapi-builder
+FROM golang:alpine3.20 AS dataplaneapi-builder
 
 ENV DATAPLANE_MINOR 2.9.3
 ENV DATAPLANE_URL https://github.com/haproxytech/dataplaneapi.git
