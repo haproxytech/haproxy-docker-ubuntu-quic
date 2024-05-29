@@ -11,8 +11,7 @@ RUN apk add --no-cache ca-certificates git make && \
 
 FROM ubuntu:jammy AS openssl-builder
 
-ENV OPENSSL_SHA256 1651412ec136a693fcc84c77df664ca0dc0495eab2785afa2c7ba064a00fb1b6
-ENV OPENSSL_URL https://github.com/quictls/openssl/archive/refs/tags/openssl-3.1.4-quic1.tar.gz
+ENV OPENSSL_URL https://github.com/quictls/openssl/archive/refs/tags/openssl-3.1.5-quic1.tar.gz
 
 ENV DEBIAN_FRONTEND noninteractive
 
